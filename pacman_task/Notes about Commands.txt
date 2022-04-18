@@ -1,0 +1,7 @@
+Our team structured unique search agents for different types of problem (Single-food and Multiple-food)
+So in order to solve maze with single food, the available Search agents are: BFSFoodSearchAgent, DFSFoodSearchAgent, UCSFoodSearchAgent, AStarFoodSearchAgent
+And to solve maze with multiple food, the available Search agents are: BFSMultipleFoodSearchAgent, DFSMultipleFoodSearchAgent, UCSMultipleFoodSearchAgent, AStarMultipleFoodSearchAgent
+
+Caution: If uses single-food search agents for multiple-food layouts, the Pacman will only eat a food item and stop, which will not terminate the game. 
+A caution message will be printed to the console for that case.
+Multiple food search agents can be used to solve both single-food layout and multiple-food layout.
